@@ -8,6 +8,8 @@ module.exports = function (options) {
 
 	var miniJasmineLib = require('minijasminenode');
 
+  miniJasmineLib.initialize();
+
 	if (options.reporter) {
 		miniJasmineLib.addReporter(options.reporter);
 	}

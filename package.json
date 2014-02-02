@@ -35,7 +35,7 @@
   "dependencies": {
     "gulp-util": "~2.2.0",
     "through2": "~0.4.0",
-    "minijasminenode": "~0.2.7"
+    "minijasminenode": "jasonpvp/minijasminenode.git#make_jasmine_re-initializable"
   },
   "devDependencies": {
     "mocha": "*"
